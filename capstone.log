@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.2)  5 FEB 2017 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.2)  6 FEB 2017 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -185,6 +185,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen131
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
@@ -212,18 +215,18 @@ LaTeX Warning: Label `fig:test' multiply defined.
 )
 \openout1 = `capstone.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -262,13 +265,13 @@ LaTeX Font Info:    ... okay on input line 28.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
-\scratchdimen=\dimen131
+\scratchdimen=\dimen132
 \scratchbox=\box28
 \nofMPsegments=\count108
 \nofMParguments=\count109
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count110
-\MPscratchDim=\dimen132
+\MPscratchDim=\dimen133
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks24
@@ -318,17 +321,17 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+wesu on input line 33.
+LaTeX Font Info:    Try loading font information for T1+wesu on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/schulschriften/t1wesu.fd)
 [1
@@ -337,143 +340,202 @@ LaTeX Font Info:    Try loading font information for T1+wesu on input line 33.
 <example.png, id=13, 174.6525pt x 134.5025pt>
 File: example.png Graphic file (type png)
  <use example.png>
-Package pdftex.def Info: example.png used on input line 55.
+Package pdftex.def Info: example.png used on input line 57.
 (pdftex.def)             Requested size: 199.16928pt x 153.39188pt.
 
 <coded_maze01.png, id=14, 229.85875pt x 204.765pt>
 File: coded_maze01.png Graphic file (type png)
  <use coded_maze01.png>
-Package pdftex.def Info: coded_maze01.png used on input line 66.
+Package pdftex.def Info: coded_maze01.png used on input line 68.
 (pdftex.def)             Requested size: 170.71652pt x 152.0861pt.
 
 <maze-01.png, id=16, 487.8225pt x 488.82625pt>
 File: maze-01.png Graphic file (type png)
  <use maze-01.png>
-Package pdftex.def Info: maze-01.png used on input line 72.
+Package pdftex.def Info: maze-01.png used on input line 74.
 (pdftex.def)             Requested size: 170.71652pt x 171.06937pt.
  [2] [3 <./example.png (PNG copy)> <./coded_maze01.png> <./maze-01.png>]
 <maze-01-1st.png, id=28, 498.86375pt x 498.86375pt>
 File: maze-01-1st.png Graphic file (type png)
  <use maze-01-1st.png>
-Package pdftex.def Info: maze-01-1st.png used on input line 90.
+Package pdftex.def Info: maze-01-1st.png used on input line 92.
 (pdftex.def)             Requested size: 170.71652pt x 170.71518pt.
 
 <maze-01-1st-star.png, id=29, 496.85625pt x 499.8675pt>
 File: maze-01-1st-star.png Graphic file (type png)
 
 <use maze-01-1st-star.png>
-Package pdftex.def Info: maze-01-1st-star.png used on input line 96.
+Package pdftex.def Info: maze-01-1st-star.png used on input line 98.
 (pdftex.def)             Requested size: 170.71652pt x 171.75275pt.
  <maze-01-2nd.png, id=30, 502.87875pt x 502.87875pt>
 File: maze-01-2nd.png Graphic file (type png)
 
 <use maze-01-2nd.png>
-Package pdftex.def Info: maze-01-2nd.png used on input line 103.
+Package pdftex.def Info: maze-01-2nd.png used on input line 105.
 (pdftex.def)             Requested size: 170.71652pt x 170.71562pt.
  <maze-01-2nd-star.png, id=31, 500.87125pt x 500.87125pt>
 File: maze-01-2nd-star.png Graphic file (type png)
 
 <use maze-01-2nd-star.png>
-Package pdftex.def Info: maze-01-2nd-star.png used on input line 109.
+Package pdftex.def Info: maze-01-2nd-star.png used on input line 111.
 (pdftex.def)             Requested size: 170.71652pt x 170.71431pt.
  <maze-01-3rd.png, id=32, 500.87125pt x 501.875pt>
 File: maze-01-3rd.png Graphic file (type png)
 
 <use maze-01-3rd.png>
-Package pdftex.def Info: maze-01-3rd.png used on input line 115.
+Package pdftex.def Info: maze-01-3rd.png used on input line 117.
 (pdftex.def)             Requested size: 170.71652pt x 171.05643pt.
  <maze-01-3rd-star.png, id=33, 502.87875pt x 503.8825pt>
 File: maze-01-3rd-star.png Graphic file (type png)
 
 <use maze-01-3rd-star.png>
-Package pdftex.def Info: maze-01-3rd-star.png used on input line 121.
+Package pdftex.def Info: maze-01-3rd-star.png used on input line 123.
 (pdftex.def)             Requested size: 170.71652pt x 171.05637pt.
 
 
-LaTeX Warning: Float too large for page by 36.64822pt on input line 127.
+LaTeX Warning: Float too large for page by 36.64822pt on input line 129.
 
 [4] [5 <./maze-01-1st.png> <./maze-01-1st-star.png> <./maze-01-2nd.png> <./maze
 -01-2nd-star.png> <./maze-01-3rd.png> <./maze-01-3rd-star.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 137.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 139.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [6]
-Overfull \hbox (22.66505pt too wide) in paragraph at lines 178--178
+Overfull \hbox (22.66505pt too wide) in paragraph at lines 180--180
 []\T1/cmtt/m/n/10.95 13           if a node with the same position as successor
  is in the OPEN list \[] 
  []
 
 
-Overfull \hbox (33.9818pt too wide) in paragraph at lines 178--178
+Overfull \hbox (33.9818pt too wide) in paragraph at lines 180--180
 []\T1/cmtt/m/n/10.95 15           if a node with the same position as successor
  is in the CLOSED list \[] 
  []
 
 [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 219.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 221.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 219.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
  [8]
 <api.png, id=58, 625.33624pt x 398.48875pt>
 File: api.png Graphic file (type png)
  <use api.png>
-Package pdftex.def Info: api.png used on input line 232.
+Package pdftex.def Info: api.png used on input line 234.
 (pdftex.def)             Requested size: 398.33858pt x 253.84016pt.
  [9] [10 <./api.png>]
-Overfull \hbox (17.00668pt too wide) in paragraph at lines 426--426
+Overfull \hbox (17.00668pt too wide) in paragraph at lines 428--428
 []\T1/cmtt/m/n/10.95 **********************************************************
 *********************[] 
  []
 
 [11] [12] [13] [14] [15]
-Overfull \hbox (17.00668pt too wide) in paragraph at lines 426--426
+Overfull \hbox (17.00668pt too wide) in paragraph at lines 428--428
 []\T1/cmtt/m/n/10.95 **********************************************************
 *********************[] 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+<maze-01-dfs.png, id=86, 498.86375pt x 500.87125pt>
+File: maze-01-dfs.png Graphic file (type png)
+ <use maze-01-dfs.png>
+Package pdftex.def Info: maze-01-dfs.png used on input line 437.
+(pdftex.def)             Requested size: 170.71652pt x 171.40215pt.
+
+<maze-01-astar-h1.png, id=87, 501.875pt x 504.88625pt>
+File: maze-01-astar-h1.png Graphic file (type png)
+
+<use maze-01-astar-h1.png>
+Package pdftex.def Info: maze-01-astar-h1.png used on input line 443.
+(pdftex.def)             Requested size: 170.71652pt x 171.74379pt.
+ [16]
+<maze-02-dfs.png, id=91, 582.175pt x 581.17125pt>
+File: maze-02-dfs.png Graphic file (type png)
+ <use maze-02-dfs.png>
+Package pdftex.def Info: maze-02-dfs.png used on input line 455.
+(pdftex.def)             Requested size: 170.71652pt x 170.41534pt.
+
+<maze-02-astar-h1.png, id=92, 583.17876pt x 582.175pt>
+File: maze-02-astar-h1.png Graphic file (type png)
+
+<use maze-02-astar-h1.png>
+Package pdftex.def Info: maze-02-astar-h1.png used on input line 461.
+(pdftex.def)             Requested size: 170.71652pt x 170.41653pt.
+ <maze-03-dfs.png, id=93, 658.46pt x 660.4675pt>
+File: maze-03-dfs.png Graphic file (type png)
+
+<use maze-03-dfs.png>
+Package pdftex.def Info: maze-03-dfs.png used on input line 473.
+(pdftex.def)             Requested size: 170.71652pt x 171.23375pt.
+ <maze-03-astar-h1.png, id=94, 658.46pt x 657.45625pt>
+File: maze-03-astar-h1.png Graphic file (type png)
+
+<use maze-03-astar-h1.png>
+Package pdftex.def Info: maze-03-astar-h1.png used on input line 479.
+(pdftex.def)             Requested size: 170.71652pt x 170.45305pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 488.
+
+[17 <./maze-01-dfs.png> <./maze-01-astar-h1.png>] [18 <./maze-02-dfs.png> <./ma
+ze-02-astar-h1.png> <./maze-03-dfs.png> <./maze-03-astar-h1.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 519.
+
+File: maze-01-astar-h1.png Graphic file (type png)
+<use maze-01-astar-h1.png>
+Package pdftex.def Info: maze-01-astar-h1.png used on input line 541.
+(pdftex.def)             Requested size: 170.71652pt x 171.74379pt.
+
+<maze-01-astar-h2.png, id=107, 500.87125pt x 501.875pt>
+File: maze-01-astar-h2.png Graphic file (type png)
+
+<use maze-01-astar-h2.png>
+Package pdftex.def Info: maze-01-astar-h2.png used on input line 547.
+(pdftex.def)             Requested size: 170.71652pt x 171.05643pt.
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 []\T1/cmr/m/it/10.95 APEC Mi-cro-mouse Con-test Rules 2015\T1/cmr/m/n/10.95 , h
 ttp://www.apec-conf.org/wp-
  []
 
-[17]
-Overfull \hbox (44.99347pt too wide) in paragraph at lines 458--459
+[20 <./maze-01-astar-h2.png>]
+Overfull \hbox (44.99347pt too wide) in paragraph at lines 579--580
 []\T1/cmr/m/n/10.95 Rajiv Er-anki, \T1/cmr/m/it/10.95 Pathfind-ing us-ing A* (A
 -Star)\T1/cmr/m/n/10.95 , http://web.mit.edu/eranki/www/tutorials/search/,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 []\T1/cmr/m/it/10.95 G5AIAI-- In-tro-duc-tion to Ar-ti-fi-cial In-tel-li-gence:
  Blind Searches\T1/cmr/m/n/10.95 ,
  []
 
 
-Overfull \hbox (3.9356pt too wide) in paragraph at lines 460--461
+Overfull \hbox (3.9356pt too wide) in paragraph at lines 581--582
 \T1/cmr/m/n/10.95 http://www.cs.nott.ac.uk/ pszgxk/courses/g5aiai/003blindsearc
 hes/blind_searches.htm 
  []
 
-[18] (./capstone.aux)
+[21] (./capstone.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4721 strings out of 493014
- 67673 string characters out of 6133352
- 137842 words of memory out of 5000000
- 8164 multiletter control sequences out of 15000+600000
- 19059 words of font info for 51 fonts, out of 8000000 for 9000
+ 4805 strings out of 493014
+ 69298 string characters out of 6133352
+ 138260 words of memory out of 5000000
+ 8233 multiletter control sequences out of 15000+600000
+ 21685 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,39p,893b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,39p,893b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
  </Users/adm/Library/texlive/2016/texmf-var/fonts/pk/ljfour/public/schulschrift
 en/wesu14.514pk></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
@@ -482,19 +544,20 @@ cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on capstone.pdf (18 pages, 487947 bytes).
+7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on capstone.pdf (21 pages, 669824 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 187 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

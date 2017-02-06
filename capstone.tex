@@ -8,6 +8,8 @@
 \usepackage{subcaption}								% TeX will automatically convert eps --> pdf in pdflatex	
 \usepackage{amssymb}
 \usepackage{eqnarray,amsmath}
+\usepackage{multirow}
+
 \usepackage{ marvosym}
 
 \usepackage{wesu}
@@ -158,7 +160,7 @@ As for A-star search, the following is the pseudo code \cite{Eranki}.
 4   while the open list is not empty
 5       find the node with the least f on the open list, call it "q"
 6       pop q off the open list
-7       generate q's 8 successors and set their parents to q
+7       generate q's successors and set their parents to q
 8       for each successor
 9         if successor is the goal, stop the search
 10           successor.g = q.g + distance between successor and q
@@ -425,12 +427,131 @@ Task complete! Score: 29.667
 *******************************************************************************
 \end{verbatim}
 
-I plot the path on the maze. Figure x is the test result of Maze\_01; Figure x is the test result of Maze\_02; and Figure x is the test result of Maze\_03. 
+I plot the run-2 path on the maze. Figure \ref{fig:maze-01-dfs} and \ref{fig:maze-01-astar-h1} are the simulation results on Maze\_01; Figure \ref{fig:maze-02-dfs} and \ref{fig:maze-02-astar-h1} are the simulation results on Maze\_02; Figure \ref{fig:maze-03-dfs} and \ref{fig:maze-03-astar-h1} are the simulation results on Maze\_03. The scores and run-2 steps are shown in Table \ref{tab:result1}.
 
 
+\begin{figure}
+\centering
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-01-dfs.png}
+  \caption{Using DFS. (46 steps)}
+  \label{fig:maze-01-dfs}
+\end{subfigure}%
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-01-astar-h1.png}
+  \caption{Using A-star. (26 steps)}
+  \label{fig:maze-01-astar-h1}
+\end{subfigure}
+\caption{The simulation results on Maze-01. (Run-2)}
+\label{fig:maze-01}
+\end{figure}
 
+\begin{figure}
+\centering
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-02-dfs.png}
+  \caption{Using DFS. (65 steps)}
+  \label{fig:maze-02-dfs}
+\end{subfigure}%
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-02-astar-h1.png}
+  \caption{Using A-star. (41 steps)}
+  \label{fig:maze-02-astar-h1}
+\end{subfigure}
+\caption{The simulation results on Maze-02. (Run-2)}
+\label{fig:maze-02}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-03-dfs.png}
+  \caption{Using DFS. (59 steps)}
+  \label{fig:maze-03-dfs}
+\end{subfigure}%
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-03-astar-h1.png}
+  \caption{Using A-star. (39 steps)}
+  \label{fig:maze-03-astar-h1}
+\end{subfigure}
+\caption{The simulation results on Maze-03. (Run-2)}
+\label{fig:maze-03}
+\end{figure}
+
+
+\begin{table}[]
+\centering
+\caption{The simulation results on the three given mazes.}
+\label{tab:result1}
+\begin{tabular}{lllll}
+\hline
+                        &             & Maze-01 & Maze-02 & Maze-03 \\ \hline
+\multirow{2}{*}{DFS}    & score       & 49.576  & 71.233  & 73.667  \\  
+                        & run-2 steps & 46      & 65      & 59      \\ \hline
+\multirow{2}{*}{A-star} & score       & 29.667  & 44.267  & 43.100  \\ 
+                        & run-2 steps & 26      & 41      & 39      \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{Refinement}
+I this subsection, I would like to know whether it is possible to improve the performance further by using other heuristic matrix. Notable, using other heuristic matrix sounds not make sense in general situations if we (or the robot) cannot get further information about the maze. I did this experiment just because I want to know the influences of the heuristic matrix. Let's start the experiment from Maze\_01.
+
+Let's named the previously defined heuristic matrix as $H_1$ (page 11); the all zeros heuristic matrix as $H_0$. Then,
+\[
+H_2(i,j) = j\ \ \ \ \ (j=0,1,2,\ldots , n-1),
+\]
+and
+\[
+H_3(i,j) = i\ \ \ \ \ (i=0,1,2,\ldots , n-1).
+\]
+
+Using the four kinds of heuristic matrix to do simulation, the results could be obtained as shown in Table \ref{tab:4-heuristic}. In average, $H_1$ is a good design of heuristic matrix. The robot get better performance while choosing $H_2$ on Maze\_01, that is because the optimal path of Maze\_01 is near the bottom of the Maze. Figure \ref{fig:different-H} shows the paths of Maze\_01 while choosing $H_1$ and $H_2$.
+
+From this experiment, we know that $H_1$ is a good choice in general situation. The design of heuristic matrix will influence the performance. If we know some information about the maze, we indeed can design a better heuristic matrix to obtain better performance.
+
+
+\begin{table}[]
+\centering
+\caption{Using four kinds of heuristic matrix to do simulation on the given mazes.}
+\label{tab:4-heuristic}
+\begin{tabular}{lllll}
+\hline
+                      &             & Maze-01 & Maze-02 & Maze-03 \\ \hline
+\multirow{2}{*}{$H_0$} & score       & 49.576  & 71.233  & 73.667  \\ 
+                      & run-2 steps & 46      & 65      & 59      \\ \hline
+\multirow{2}{*}{$H_1$} & score       & 29.667  & 44.267  & 43.100  \\ 
+                      & run-2 steps & 26      & 41      & 39      \\ \hline
+\multirow{2}{*}{$H_2$} & score       & 25.233  & 63.100  & 59.167  \\
+                      & run-2 steps & 23      & 51      & 39      \\ \hline
+\multirow{2}{*}{$H_3$} & score       & 49.567  & 71.233  & 73.677  \\
+                      & run-2 steps & 46      & 65      & 59      \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-01-astar-h1.png}
+  \caption{Choosing $H_1$ as the heuristic matrix.}
+  \label{fig:maze-01-h1}
+\end{subfigure}%
+\begin{subfigure}{7cm}
+  \centering
+  \includegraphics[width=6cm]{maze-01-astar-h2.png}
+  \caption{Choosing $H_2$ as the heuristic matrix.}
+  \label{fig:mae-01-h2}
+\end{subfigure}
+\caption{The paths of Maze-01 while choosing different heuristic matrix.}
+\label{fig:different-H}
+\end{figure}
+
 
 
 
